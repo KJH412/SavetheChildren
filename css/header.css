@@ -27,12 +27,14 @@ button{
 /* 캠패인 */
 .nav_sub_bg{
     /* display: none; */
+    opacity: 0;
     box-shadow: 0px 10px 16px 0px rgba(0,0,0,.3);
     background: #fff;
     width: 100%;
     position: absolute;
     top: 80px;    
     padding: 280px 0 20px;
+    transition: all .2s;
 }
 .campaign_wrap{
     text-align: center;
@@ -64,7 +66,7 @@ button{
 /* 네비게이션 메뉴바 */
 .nav_wrap{
     position: absolute;
-    top: 30px;
+    /* top: 30px; */
     width: 100%;
     z-index: 2;
 }
@@ -77,17 +79,21 @@ button{
     font-size: 18px;
     font-weight: bold;
     position: relative;
+    height: 80px;
+    line-height: 80px;
 }
 .menu{
     color:#fff;
 }
 .sub{
-    display: none;
+    /* display: none; */
+    opacity: 0;
     position: absolute;
-    top: 50px;
+    top: 80px;
     left: 0;
-    width: 100%;
     padding: 20px 0 30px;
+    width: 100%;
+    transition: all .2s;
 }
 .sub>li{
     text-align: center;
@@ -100,11 +106,8 @@ button{
 }
 /* 네비게이션 hover효과 */
 .nav_list:hover .sub{
-    display: block;
+    opacity: 1;
 }
-/* .nav_list:hover .nav_sub_bg{
-    display: block;
-} */
 .nav_list:hover .menu{
     color: #000;
 }
@@ -119,14 +122,12 @@ button{
 }
 .login_search{
     position: relative;
-    top: 15px;
+    top: 15px;    
+    padding-right: 20px;
 }
 .login_search_list{
     display: flex;
     gap: 10px;
-}
-.login{
-   
 }
 .login_btn{
     width: 50px;
@@ -134,7 +135,8 @@ button{
     background: url(/images/btn/login-active.png) no-repeat center 10px;
     position: relative;
 }
-.login_btn>em{
+/* .login_btn>em */
+.loginTxt{
     width: 100%;
     position: absolute;
     bottom: 0;
@@ -142,13 +144,17 @@ button{
     color: #fff9d2;
 }
 .login_menu{
-    display: none; /* 클릭이벤트 */
+    /* display: none; */
+    opacity: 0;
     background-color: #fff;
     position: absolute;
     top: 60px;
     left: -50%;
     width: 200px;
     box-shadow: 0px 10px 16px 0px rgba(0,0,0,.3);
+}
+.open.login_menu{
+    opacity: 1; 
 }
 .login_link_wrap{
     padding: 15px 0;
@@ -171,9 +177,6 @@ button{
     border: 1px solid #ccc;
     color: #666;
 }
-.login_sub{
- 
-}
 .login_sub_list>li{
     border-bottom: 1px solid #ccc;
     padding: 10px 5px 10px 15px;
@@ -188,9 +191,6 @@ button{
     color: #666;
 }
 /* 검색버튼 */
-.search{
-
-}
 .search_btn{
     width: 50px;
     height: 50px;
@@ -200,13 +200,13 @@ button{
 .ham_btn{
     width: 80px;
     height: 80px;
+    border-left: 1px solid rgba(255,255,255,.2);
 }
-.ham_btn>a{
+.ham{
     display: block;
     width: 100%;
     height: 100%;
-    background: url(/images/btn/gnb.png) no-repeat;
-    background-position: center;
+    background: url(/images/btn/gnb.png) no-repeat center;
 }
 .sponsorship{
     width: 150px;
