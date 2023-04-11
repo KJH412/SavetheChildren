@@ -1,4 +1,6 @@
+// document.addEventListener("DOMContentLoaded", function() {
 window.onload=()=>{
+  // header
   const nav = document.querySelector(".nav_list"), //nav>ul
         header = document.querySelector(".stc_header"), //header태그
         navBg = document.querySelector(".nav_sub_bg"), 
@@ -7,24 +9,35 @@ window.onload=()=>{
         loginBtn = document.querySelector(".login_btn"),
         loginTxt = document.querySelector(".loginTxt"),
         searchIcon = document.querySelector(".search_btn"),
-        hamBtn = document.querySelector(".ham_btn");
-
+        hamBtn = document.querySelector(".ham_btn"),
+        ham = document.querySelector(".ham");
+  
   // 네비게이션 바
-  nav.addEventListener("mouseenter",() => {
+  function Menu(){
     logo.src="images/logo/logo_on.png";
     header.style.background="#fff";
     loginBtn.style.background="url(images/btn/login_on.png) no-repeat center 10px";
     loginTxt.style.color="#000";
     searchIcon.style.background="url(images/btn/search_on.png) no-repeat center";
     navBg.style.opacity="1";
+    ham.style.background="url(images/btn/gnb_on.png) no-repeat center";
+  }
+  
+  nav.addEventListener("mouseenter",() => {
+    Menu();
   });
-  nav.addEventListener("mouseleave",() => {
+
+  function CloseMenu(){
     logo.src="images/logo/logo.png";
     header.style.background="rgba(0,0,0,.5)";
     loginBtn.style.background="url(images/btn/login-active.png) no-repeat center 10px";
     loginTxt.style.color="#fff9d2";
     searchIcon.style.background="url(images/btn/search.png) no-repeat center";   
     navBg.style.opacity="0";
+    ham.style.background="url(images/btn/gnb.png) no-repeat center"
+  }
+  nav.addEventListener("mouseleave",() => {
+    CloseMenu();
   });
 
   // 로그인 아이콘 클릭 이벤트
@@ -33,4 +46,7 @@ window.onload=()=>{
     loginMenu.classList.toggle("open");
   });
 
-}
+  // hamBtn.addEventListener("click",()=>{
+  //   Menu();
+  // });
+};
