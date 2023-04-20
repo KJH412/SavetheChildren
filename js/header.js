@@ -1,5 +1,6 @@
-// document.addEventListener("DOMContentLoaded", function() {
-window.onload=()=>{
+document.addEventListener("DOMContentLoaded", function() {
+// window.onload=function(){
+  console.log("header Js");
   // header
   const nav = document.querySelector(".nav_list"), //nav>ul
         header = document.querySelector(".stc_header"), //header태그
@@ -45,8 +46,5 @@ window.onload=()=>{
   loginBtn.addEventListener("click",()=>{
     loginMenu.classList.toggle("open");
   });
-
-  // hamBtn.addEventListener("click",()=>{
-  //   Menu();
-  // });
-};
+  
+})
