@@ -1,3 +1,5 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8" %>  
 <!DOCTYPE html>
 <html lang="ko">
 <head>
@@ -5,7 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="images/logo/shortcut_logo.png">
-    <title>세이브더칠드런</title>
+    <title>headerJSP</title>
     <!-- css -->
     <link rel="stylesheet" href="css/common.css">
     <link rel="stylesheet" href="css/header.css">
@@ -196,6 +198,6 @@
         </div>
     </header>
 
-    <script src="/js/header.js"></script>
+    <script src="js/header.js"></script>   
 </body>
 </html>

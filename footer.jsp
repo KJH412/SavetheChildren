@@ -1,3 +1,5 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8" %>  
 <!DOCTYPE html>
 <html lang="ko">
 <head>
@@ -5,9 +7,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="images/logo/shortcut_logo.png">
-    <title>세이브더칠드런</title>
+    <title>footerJSP</title>
     <!-- css -->
-    <link rel="stylesheet" href="css/common.css"> 
+    <link rel="stylesheet" href="css/common.css">
     <link rel="stylesheet" href="css/footer.css"> 
 </head>
 <body>
@@ -16,11 +18,11 @@
         <div class="footer_top">
             <div class="sns_wrap">
                 <ul>
-                    <li><a href="#void"><img src="/images/sns/sns1.png" alt="네이버"></a></li>
-                    <li><a href="#void"><img src="/images/sns/sns2.png" alt="페이스북"></a></li>
-                    <li><a href="#void"><img src="/images/sns/sns3.png" alt="인스타"></a></li>
-                    <li><a href="#void"><img src="/images/sns/sns4.png" alt="트위터"></a></li>
-                    <li><a href="#void"><img src="/images/sns/sns5.png" alt="유튜브"></a></li>
+                    <li><a href="#void"><img src="images/sns/sns1.png" alt="네이버"></a></li>
+                    <li><a href="#void"><img src="images/sns/sns2.png" alt="페이스북"></a></li>
+                    <li><a href="#void"><img src="images/sns/sns3.png" alt="인스타"></a></li>
+                    <li><a href="#void"><img src="images/sns/sns4.png" alt="트위터"></a></li>
+                    <li><a href="#void"><img src="images/sns/sns5.png" alt="유튜브"></a></li>
                 </ul>
             </div>
             <div class="site_wrap">
