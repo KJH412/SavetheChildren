@@ -28,7 +28,7 @@
     display: block;
     width: 35px;
     height: 35px;
-    background: #555555 url(/images/btn/site_top.png) no-repeat center;
+    background: #555555 url(../images/btn/site_top.png) no-repeat center;
 }
 /* 링크버튼,리스트 공통사항 */
 .site{
@@ -41,14 +41,14 @@
     color: #666;
     border: 1px solid #ccc;
     padding-left: 15px;
-    background: #fff url(/images/btn/sites_on_arrow.png) no-repeat right 15px center;
+    background: #fff url(../images/btn/sites_on_arrow.png) no-repeat right 15px center;
 }
 .site .link_list{
     /* display: none; */
     overflow-y: scroll;
     position: absolute;
     right: 0;
-    /* bottom: 34px; */
+    bottom: 34px;
     background-color: #fff;
     border: 1px solid #e5e5e5;
     height: 450px;
@@ -112,9 +112,6 @@
 }
 
 /* 2. footer top */
-.footer_middle{
-
-}
 .util{
     display: flex;
     padding: 20px 0 10px;

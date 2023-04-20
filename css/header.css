@@ -5,6 +5,7 @@
     width: 100%;
     height: 80px;
     box-sizing: border-box;
+    z-index: 6;
 }
 .gnb_wrap{
     position: relative;   
@@ -32,6 +33,7 @@
     top: 80px;    
     padding: 280px 0 20px;
     transition: all .2s;
+    z-index: 4;
 }
 .campaign_wrap{
     text-align: center;
@@ -65,7 +67,7 @@
     position: absolute;
     /* top: 30px; */
     width: 100%;
-    z-index: 2;
+    z-index: 5;
 }
 .nav_list{
     display: flex;
@@ -128,7 +130,7 @@
 .login_btn{
     width: 50px;
     height: 50px;
-    background: url(/images/btn/login-active.png) no-repeat center 10px;
+    background: url(../images/btn/login-active.png) no-repeat center 10px;
     position: relative;
 }
 /* .login_btn>em */
@@ -177,7 +179,7 @@
 .login_sub_list>li{
     border-bottom: 1px solid #ccc;
     padding: 10px 5px 10px 15px;
-    background: url(/images/btn/my_menu_arrow.png) no-repeat center right 20px;    
+    background: url(../images/btn/my_menu_arrow.png) no-repeat center right 20px;    
 }
 .login_sub_list>li:hover a{
     color:#da281f;
@@ -191,7 +193,7 @@
 .search_btn{
     width: 50px;
     height: 50px;
-    background: url(/images/btn/search.png) no-repeat;
+    background: url(../images/btn/search.png) no-repeat;
     background-position: center;
 }
 .ham_btn{
@@ -203,7 +205,7 @@
     display: block;
     width: 100%;
     height: 100%;
-    background: url(/images/btn/gnb.png) no-repeat center;
+    background: url(../images/btn/gnb.png) no-repeat center;
 }
 .sponsorship{
     width: 150px;

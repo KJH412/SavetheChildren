@@ -1,0 +1,22 @@
+/* continer */
+.main_banner_wrap{
+position: relative;
+top: -93px;
+z-index: 1;
+}
+.banner{
+    height: 880px;
+}
+.banner.ban1{
+    background-image: url(../images/mainweb/mainweb_1.jpg);
+}
+.banner.ban2{
+    background-image: url(../images/mainweb/mainweb_2.jpg);
+}
+.banner.ban3{
+    background-image: url(../images/mainweb/mainweb_3.jpg);
+
+}
+.banner.ban4{
+    background-image: url(../images/mainweb/mainweb_4.jpg);
+}
