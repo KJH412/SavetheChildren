@@ -1,11 +1,17 @@
-/* continer */
 .main_banner_wrap{
-position: relative;
-top: -93px;
-z-index: 1;
+    position: relative;
+    top: -80px;
+    width: 100%;
+}
+.banner_wrap{
+    position: relative;
+    width: 100%;
+}
+.banner_list{
+    width: 100%;
 }
 .banner{
-    height: 880px;
+    height: 100vh;
 }
 .banner.ban1{
     background-image: url(../images/mainweb/mainweb_1.jpg);
@@ -19,4 +25,161 @@ z-index: 1;
 }
 .banner.ban4{
     background-image: url(../images/mainweb/mainweb_4.jpg);
+}
+/* 배너텍스트 */
+.banner_tit{
+    font-family: 'Nanum Barun Gothic';
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    margin-left: 11%;
+}
+.banner_tit span,
+.h_tit{
+    background: #fff;
+    border-radius: 5px;
+}
+.banner_tit span{
+    padding: 10px 25px 10px 20px;
+}
+.h_tit{
+    font-family: 'Nanum Barun Gothic';
+    font-weight: bold;
+    padding: 10px 25px 10px 15px;
+    font-size: 70px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+.h_sub_tit{
+    font-size: 23px;
+    margin-bottom: 40px;
+    line-height: 1.6;
+}
+.h_link{
+    font-size: 17px;
+    text-align: center;
+    color: #fff;
+    background: rgba(0,0,0,.5);
+    border: 1px solid #fff;
+    border-radius: 5px;
+    padding: 20px 80px;
+    transition: all .3s;
+}
+.h_link:hover{
+    color: #fff;
+    background: #da281f;
+    border: 1px solid transparent;
+}
+/* slick arrow custom  */
+.banner_wrap button{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 35px;
+    height: 72px;
+    z-index: 9999;
+    text-indent: -9999px;
+}
+.banner_wrap button.slick-prev{
+    left: 70px;
+    background: url("../images/btn/visual_btn_prev.png") no-repeat center;    
+}
+.banner_wrap button.slick-next{
+    right: 70px;
+    background: url("../images/btn/visual_btn_next.png") no-repeat center;
+}
+/* 후원 버튼 */
+.main_spon{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    height: 90px;
+    background: rgba(0,0,0,.27);
+    display: flex;
+    padding: 22px 0 0;
+    box-sizing: border-box;
+    justify-content: center;
+}
+.suport_btn.choice{
+    background: #61564b;
+    border: 2px solid #4f453b;
+}
+.suport_btn{
+    display: inline-block;
+    width: 270px;
+    height: 46px;
+    background: #fff;
+    border: 1px solid #ccc;
+    cursor: pointer;
+    line-height: 46px;
+    text-align: center;
+    box-sizing: border-box;
+}
+.suport_btn.choice .choice_area{
+    color: #fff;
+    background:url(../images/btn/checkbox_checked_type2.png) no-repeat 70px 13px;
+}
+.choice_area{
+    font-family: 'NanumSquare';
+    font-size: 18px;
+    font-weight: bold;
+    color: #333333;
+    background: url(../images/btn/checkbox.png) no-repeat 70px 13px;
+}
+.select_sum{
+    position: relative;
+    display: inline-block;
+    width: 240px;
+    height: 46px;
+    line-height: 46px;
+    box-sizing: border-box;
+    font-family: 'NanumSquare';
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+    background: #fff;
+    border: 1px solid #ccc;
+    margin-left: 30px;
+}
+.sel_price{
+    position: relative;
+    width: inherit;
+    height: inherit;
+    background: transparent;
+    border: none;
+    font-size: 19px;
+    outline: none;
+    text-indent: 10px;
+}
+.price_input>input{
+    width: 240px;
+    height: 46px;
+    line-height: 46px;
+    box-sizing: border-box;
+    background: #f3f0e7;
+    outline: none;
+    font-size: 25px;
+    font-weight: 700;
+    text-align: right;
+    padding-right: 20px;
+    color: #333;
+}
+.price_input>span{
+    font-size: 20px;
+    font-weight: 700;
+    color: #fff;
+    margin-left: 18px;
+}
+.mainsupport_btn{
+    width: 275px;
+    height: 46px;
+    font-family: 'NanumSquare';
+    font-size: 23px;
+    font-weight: bold;
+    color: #fff;
+    border-radius: 5px;
+    background: #da281f;
+    margin-left: 23px;
 }

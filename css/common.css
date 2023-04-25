@@ -51,7 +51,7 @@ src: url(//cdn.jsdelivr.net/gh/moonspam/NanumBarunGothic@1.0/NanumBarunGothicBol
         url(//cdn.jsdelivr.net/gh/moonspam/NanumBarunGothic@1.0/NanumBarunGothicBoldSubset.ttf) format('truetype');
 }
 
-@font-face {
+/* @font-face {
     font-family: 'SavetheChildren';
     font-weight: 300;
     font-style: normal;
@@ -85,7 +85,7 @@ src: url(//cdn.jsdelivr.net/gh/moonspam/NanumBarunGothic@1.0/NanumBarunGothicBol
         url('../font/savethechildren/SavetheChildrenB.ttf') format('truetype'),
         url('../font/savethechildren/SavetheChildrenB.svg#SavetheChildrenB') format('svg'),
         url('../font/savethechildren/SavetheChildrenB.eot?#iefix') format('embedded-opentype');
-}
+} */
 
 /* ======= Reset ======= */
 html{overflow-y:scroll;}
