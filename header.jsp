@@ -10,7 +10,7 @@
     <title>headerJSP</title>
     <!-- css -->
     <link rel="stylesheet" href="css/common.css">
-    <link rel="stylesheet" href="css/header.css?after">
+    <link rel="stylesheet" href="css/header.css">
 </head>
 <body>
     <header class="stc_header" data-sub="off">
@@ -98,7 +98,7 @@
                         <li>
                             <a href="#void" class="menu">기관</a>
                                 <ul class="sub">
-                                    <li><a href="#void">세이브더칠드런100주년</a></li>
+                                    <li><a href="#void">세이브더칠드런<br/>100주년</a></li>
                                     <li><a href="#void">세이브더칠드런 정신</a></li>
                                     <li><a href="#void">연혁/조직</a></li>
                                     <li><a href="#void">투명경영/전략</a></li>
@@ -198,6 +198,6 @@
         </div>
     </header>
 
-    <script src="js/header.js"></script>   
+    <script type="text/javascript" src="js/header.js?testNm=3"></script>   
 </body>
 </html>

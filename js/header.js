@@ -1,5 +1,6 @@
-document.addEventListener("DOMContentLoaded", function() {
-// window.onload=function(){
+// document.addEventListener("DOMContentLoaded", function() {
+window.onload=function(){
+  
   console.log("header Js");
   // header
   const nav = document.querySelector(".nav_list"), //nav>ul
@@ -20,7 +21,7 @@ document.addEventListener("DOMContentLoaded", function() {
     loginBtn.style.background="url(images/btn/login_on.png) no-repeat center 10px";
     loginTxt.style.color="#000";
     searchIcon.style.background="url(images/btn/search_on.png) no-repeat center";
-    navBg.style.opacity="1";
+    navBg.style.display="block";
     ham.style.background="url(images/btn/gnb_on.png) no-repeat center";
   }
   
@@ -34,7 +35,7 @@ document.addEventListener("DOMContentLoaded", function() {
     loginBtn.style.background="url(images/btn/login-active.png) no-repeat center 10px";
     loginTxt.style.color="#fff9d2";
     searchIcon.style.background="url(images/btn/search.png) no-repeat center";   
-    navBg.style.opacity="0";
+    navBg.style.display="none";
     ham.style.background="url(images/btn/gnb.png) no-repeat center"
   }
   nav.addEventListener("mouseleave",() => {
@@ -46,5 +47,6 @@ document.addEventListener("DOMContentLoaded", function() {
   loginBtn.addEventListener("click",()=>{
     loginMenu.classList.toggle("open");
   });
+}
+// })
   
-})

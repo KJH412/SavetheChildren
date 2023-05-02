@@ -1,3 +1,8 @@
+.container{
+    max-width: 1920px;
+    margin: 0 auto;
+}
+/* ==== 메인 배너 ==== */
 .main_banner_wrap{
     position: relative;
     top: -80px;
@@ -12,6 +17,8 @@
 }
 .banner{
     height: 100vh;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
 }
 .banner.ban1{
     background-image: url(../images/mainweb/mainweb_1.jpg);
@@ -70,19 +77,20 @@
     background: #da281f;
     border: 1px solid transparent;
 }
-/* slick arrow custom  */
+/* 메인배너 slick arrow custom  */
 .banner_wrap button{
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
     width: 35px;
     height: 72px;
-    z-index: 9999;
+    /* z-index: 99; */
     text-indent: -9999px;
 }
 .banner_wrap button.slick-prev{
     left: 70px;
     background: url("../images/btn/visual_btn_prev.png") no-repeat center;    
+    z-index: 1;
 }
 .banner_wrap button.slick-next{
     right: 70px;
@@ -182,4 +190,178 @@
     border-radius: 5px;
     background: #da281f;
     margin-left: 23px;
+}
+/* ==== main board 1 ==== */
+.main_board_storyWrap{
+    margin: 0 0 100px;
+}
+/* .contents_wrap>div{
+    border:1px solid red;
+} */
+.title_wrap{
+    float: left;
+    width: 250px;
+    margin-left: 50px;
+}
+.title_wrap h1{
+    font-size: 40px;
+}
+.board_img{
+    width: 250px;
+    height: 250px;
+}
+.board_img img{
+    width: 100%;
+    height: 100%;
+}
+.board_text{
+    width: 250px;
+}
+.board_text h1{
+    overflow: hidden;
+    font-size: 19px;
+    height: 50px;
+    color: #333;
+    line-height: 25px;
+    margin: 20px 0;
+}
+.board_text p{
+    overflow: hidden;
+    font-size: 15px;
+    height: 70px;
+    color: #666;
+    line-height: 18px;
+}
+/* board slick arrow custom */
+.contents_wrap button{
+    position: absolute;
+    top: 80%;
+    width: 50px;
+    height: 50px;
+    border: 1px solid #ccc;
+    text-indent: -9999px;
+}
+.contents_wrap button.slick-prev{
+    left: 60px;
+    background: url("../images/btn/board_btn_prev.png") no-repeat center;
+}
+.contents_wrap button.slick-next{
+    left: 120px;
+    background: url("../images/btn/board_btn_next.png") no-repeat center;
+}   
+.board_morebtn{
+    position: relative;
+    top: 283px;
+    left: 130px;
+    width: 50px;
+    height: 50px;    
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    background: url("../images/btn/board_btn_more.png") no-repeat center;
+    z-index: 10;
+} 
+
+/* ==== main board 2 ==== */
+.main_board{
+    position: relative;
+    margin: 0 0 250px;
+}
+.board_banner_imgWrap img{
+    position: relative;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.board_banner_bottomWrap{
+    display: flex;
+    gap: 20px;
+    position: absolute;
+    bottom: -100px;
+    left: 50%;
+    transform: translateX(-50%);    
+}
+
+/* ==== main campaign ==== */
+.campaign_list_wrap{
+    position: relative;
+    height: 700px;
+    margin: 0 0 100px;
+}
+.campaign_slide{
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+}
+.campaign_slide.on{
+    opacity: 1;
+}
+.campaign_img{
+    position: relative;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.campaign_text{
+    position: absolute;
+    top: 50%;
+    right: 50%;
+    transform: translate(50%,50%);
+    text-align: center;
+    color: #fff;
+}
+.campaign_text h1{
+    font-size: 33px;
+    color: #fff;
+    font-weight: 400;
+}
+.campaign_text p{
+    font-size: 19px;
+    color: rgba(255,255,255,.65);
+    margin: 15px 0 35px;
+}
+.campaign_text a{
+    padding: 15px 50px;
+    color: #fff;
+    background: rgba(0,0,0,.2);
+    border: 1px solid #fff;
+    font-size: 15px;
+}
+/* 캠패인 버튼 */
+.campaign_btn_wrap{
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+}
+.campaign_btn_wrap button{
+    display: block;
+    width: 270px;
+    height: 50px;
+    color: rgba(255,255,255,.7);
+    background: rgba(0,0,0,.5);
+    font-size: 16px;
+    text-align: left;
+    padding-left: 20px;
+    margin: 5px 0;
+    position: relative;
+}
+.campaign_btn_wrap button.this{
+    width: 300px;
+    height: 70px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+    background: #fff;
+}
+.campaign_btn_wrap button:after{
+    content: "";
+    /* display: block; */
+    width: 7px;
+    height: 13px;
+    background: url("../images/btn/my_menu_arrow.png") no-repeat center center;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: 20px;
 }

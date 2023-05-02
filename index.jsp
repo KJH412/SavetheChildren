@@ -10,14 +10,14 @@
     <title>세이브더칠드런</title>    
     <!-- css -->
     <link rel="stylesheet" href="css/common.css?after">
-    <link rel="stylesheet" href="css/main.css?after">
+    <link rel="stylesheet" href="css/main.css">
     <!-- jquery 불러오기 -->
     <script src="//code.jquery.com/jquery-3.6.1.min.js"></script>
     <!-- slick 불러오기 -->
     <script src="js/slick.min.js"></script>
-    <link rel="stylesheet" href="css/slick/slick.css?after">
+    <link rel="stylesheet" href="css/slick/slick.css">
     <link rel="stylesheet" href="css/slick/slick-theme.css?after">
-   <script>
+    <script>
         $( document ).ready(function() {
             $('.banner_wrap').slick({
                 slidesToShow: 1,
@@ -28,9 +28,34 @@
                 dots:true,
                 fade:true
             });           
-            console.log("slick"); 
+            $('.contents_wrap').slick({
+                slidesToShow: 5,
+                slidesToScroll: 5,
+                responsive: [ // 반응형 웹 구현 옵션
+                    { 
+						breakpoint: 1680, //화면 사이즈 
+						settings: {	
+							slidesToShow:4, 
+                            slidesToScroll: 1
+						} 
+					},
+                    {  
+						breakpoint: 1380, 
+						settings: {
+							slidesToShow:3,
+                            slidesToScroll: 1
+						} 
+					},
+					{  
+						breakpoint: 1000, 
+						settings: {
+							slidesToShow:2,
+                            slidesToScroll: 1
+						} 
+					}
+				]
+            })
         });
-
     </script>
 </head>
 <body>
@@ -40,6 +65,7 @@
     </div>
     <!-- 본문 -->
     <div class="container">
+        <!-- main banner -->
         <div class="main_banner_wrap">
             <div class="banner_wrap">
                 <div class="banner_list">
@@ -110,6 +136,318 @@
                 <button type="button" class="mainsupport_btn">후원하기</button>
             </div>
         </div>
+        <!-- main board 1 -->
+        <div class="main_board_storyWrap">
+            <div class="title_wrap">
+                <h1>나눔이야기</h1>
+                <button type="button" class="board_morebtn"></button>
+            </div>
+            <div class="contents_wrap">
+                <div>
+                    <a href="#void">
+                        <div class="board_img">
+                            <img src="images/nanum/nanum_1.png" alt="우크라이나 전쟁">
+                        </div>
+                        <div class="board_text">
+                            <h1>우크라이나 전쟁,긴급구호 1년간의 기록</h1>
+                            <p>
+                                러시아 군의 우크라이나 공격으로 전쟁이 발생한지 1년이 지났습니다.
+                                 1년이 지났음에도 우크라이나에서는 여전히 러시아 군의 폭격이 계속되고 있으며, 
+                                 전쟁속에서 아동을 포함한 많은 사람들이 고통에 시달리고 있습니다.
+                                 ▲러시아 군의 폭격으로 인해 파괴된 우크라이나 현지의 건물공식 데이터에 의하면, 
+                                 지난 1년 동안 우크라이나에서는 총 16,207 건의 공습경보가 발령되었으며, 
+                                 아동과 가족들은 지속적인 폭격으로 인하여 최대 8시간까지 지하 대피소에 갇혀 있었던 것으로 알려졌습니다.
+                                 전쟁으로 인해 피해를 본 건 군인들 뿐만이 아닙니다. 
+                                 UN에 따르면, 러시아-우크라이나 전쟁으로 인하여 현재까지 아동을 포함한 18,657 명의 민간인 사상자가 발생하였다고 합니다.
+                            </p>
+                        </div>
+                    </a>
+                </div>  
+                <div>
+                    <a href="#void">
+                        <div class="board_img">
+                            <img src="images/nanum/nanum_2.jpg" alt="우크라이나 전쟁">
+                        </div>
+                        <div class="board_text">
+                            <h1>우크라이나 전쟁,긴급구호 1년간의 기록</h1>
+                            <p>
+                                러시아 군의 우크라이나 공격으로 전쟁이 발생한지 1년이 지났습니다.
+                                 1년이 지났음에도 우크라이나에서는 여전히 러시아 군의 폭격이 계속되고 있으며, 
+                                 전쟁속에서 아동을 포함한 많은 사람들이 고통에 시달리고 있습니다.
+                                 ▲러시아 군의 폭격으로 인해 파괴된 우크라이나 현지의 건물공식 데이터에 의하면, 
+                                 지난 1년 동안 우크라이나에서는 총 16,207 건의 공습경보가 발령되었으며, 
+                                 아동과 가족들은 지속적인 폭격으로 인하여 최대 8시간까지 지하 대피소에 갇혀 있었던 것으로 알려졌습니다.
+                                 전쟁으로 인해 피해를 본 건 군인들 뿐만이 아닙니다. 
+                                 UN에 따르면, 러시아-우크라이나 전쟁으로 인하여 현재까지 아동을 포함한 18,657 명의 민간인 사상자가 발생하였다고 합니다.
+                            </p>
+                        </div>
+                    </a>
+                </div>          
+                <div>
+                    <a href="#void">
+                        <div class="board_img">
+                            <img src="images/nanum/nanum_3.jpg" alt="우크라이나 전쟁">
+                        </div>
+                        <div class="board_text">
+                            <h1>우크라이나 전쟁,긴급구호 1년간의 기록</h1>
+                            <p>
+                                러시아 군의 우크라이나 공격으로 전쟁이 발생한지 1년이 지났습니다.
+                                 1년이 지났음에도 우크라이나에서는 여전히 러시아 군의 폭격이 계속되고 있으며, 
+                                 전쟁속에서 아동을 포함한 많은 사람들이 고통에 시달리고 있습니다.
+                                 ▲러시아 군의 폭격으로 인해 파괴된 우크라이나 현지의 건물공식 데이터에 의하면, 
+                                 지난 1년 동안 우크라이나에서는 총 16,207 건의 공습경보가 발령되었으며, 
+                                 아동과 가족들은 지속적인 폭격으로 인하여 최대 8시간까지 지하 대피소에 갇혀 있었던 것으로 알려졌습니다.
+                                 전쟁으로 인해 피해를 본 건 군인들 뿐만이 아닙니다. 
+                                 UN에 따르면, 러시아-우크라이나 전쟁으로 인하여 현재까지 아동을 포함한 18,657 명의 민간인 사상자가 발생하였다고 합니다.
+                            </p>
+                        </div>
+                    </a>
+                </div>          
+                <div>
+                    <a href="#void">
+                        <div class="board_img">
+                            <img src="images/nanum/nanum_4.jpg" alt="우크라이나 전쟁">
+                        </div>
+                        <div class="board_text">
+                            <h1>우크라이나 전쟁,긴급구호 1년간의 기록</h1>
+                            <p>
+                                러시아 군의 우크라이나 공격으로 전쟁이 발생한지 1년이 지났습니다.
+                                 1년이 지났음에도 우크라이나에서는 여전히 러시아 군의 폭격이 계속되고 있으며, 
+                                 전쟁속에서 아동을 포함한 많은 사람들이 고통에 시달리고 있습니다.
+                                 ▲러시아 군의 폭격으로 인해 파괴된 우크라이나 현지의 건물공식 데이터에 의하면, 
+                                 지난 1년 동안 우크라이나에서는 총 16,207 건의 공습경보가 발령되었으며, 
+                                 아동과 가족들은 지속적인 폭격으로 인하여 최대 8시간까지 지하 대피소에 갇혀 있었던 것으로 알려졌습니다.
+                                 전쟁으로 인해 피해를 본 건 군인들 뿐만이 아닙니다. 
+                                 UN에 따르면, 러시아-우크라이나 전쟁으로 인하여 현재까지 아동을 포함한 18,657 명의 민간인 사상자가 발생하였다고 합니다.
+                            </p>
+                        </div>
+                    </a>
+                </div>          
+                <div>
+                    <a href="#void">
+                        <div class="board_img">
+                            <img src="images/nanum/nanum_5.jpg" alt="우크라이나 전쟁">
+                        </div>
+                        <div class="board_text">
+                            <h1>우크라이나 전쟁,긴급구호 1년간의 기록</h1>
+                            <p>
+                                러시아 군의 우크라이나 공격으로 전쟁이 발생한지 1년이 지났습니다.
+                                 1년이 지났음에도 우크라이나에서는 여전히 러시아 군의 폭격이 계속되고 있으며, 
+                                 전쟁속에서 아동을 포함한 많은 사람들이 고통에 시달리고 있습니다.
+                                 ▲러시아 군의 폭격으로 인해 파괴된 우크라이나 현지의 건물공식 데이터에 의하면, 
+                                 지난 1년 동안 우크라이나에서는 총 16,207 건의 공습경보가 발령되었으며, 
+                                 아동과 가족들은 지속적인 폭격으로 인하여 최대 8시간까지 지하 대피소에 갇혀 있었던 것으로 알려졌습니다.
+                                 전쟁으로 인해 피해를 본 건 군인들 뿐만이 아닙니다. 
+                                 UN에 따르면, 러시아-우크라이나 전쟁으로 인하여 현재까지 아동을 포함한 18,657 명의 민간인 사상자가 발생하였다고 합니다.
+                            </p>
+                        </div>
+                    </a>
+                </div>          
+                <div>
+                    <a href="#void">
+                        <div class="board_img">
+                            <img src="images/nanum/nanum_6.jpg" alt="우크라이나 전쟁">
+                        </div>
+                        <div class="board_text">
+                            <h1>우크라이나 전쟁,긴급구호 1년간의 기록</h1>
+                            <p>
+                                러시아 군의 우크라이나 공격으로 전쟁이 발생한지 1년이 지났습니다.
+                                 1년이 지났음에도 우크라이나에서는 여전히 러시아 군의 폭격이 계속되고 있으며, 
+                                 전쟁속에서 아동을 포함한 많은 사람들이 고통에 시달리고 있습니다.
+                                 ▲러시아 군의 폭격으로 인해 파괴된 우크라이나 현지의 건물공식 데이터에 의하면, 
+                                 지난 1년 동안 우크라이나에서는 총 16,207 건의 공습경보가 발령되었으며, 
+                                 아동과 가족들은 지속적인 폭격으로 인하여 최대 8시간까지 지하 대피소에 갇혀 있었던 것으로 알려졌습니다.
+                                 전쟁으로 인해 피해를 본 건 군인들 뿐만이 아닙니다. 
+                                 UN에 따르면, 러시아-우크라이나 전쟁으로 인하여 현재까지 아동을 포함한 18,657 명의 민간인 사상자가 발생하였다고 합니다.
+                            </p>
+                        </div>
+                    </a>
+                </div>          
+                <div>
+                    <a href="#void">
+                        <div class="board_img">
+                            <img src="images/nanum/nanum_7.jpg" alt="우크라이나 전쟁">
+                        </div>
+                        <div class="board_text">
+                            <h1>우크라이나 전쟁,긴급구호 1년간의 기록</h1>
+                            <p>
+                                러시아 군의 우크라이나 공격으로 전쟁이 발생한지 1년이 지났습니다.
+                                 1년이 지났음에도 우크라이나에서는 여전히 러시아 군의 폭격이 계속되고 있으며, 
+                                 전쟁속에서 아동을 포함한 많은 사람들이 고통에 시달리고 있습니다.
+                                 ▲러시아 군의 폭격으로 인해 파괴된 우크라이나 현지의 건물공식 데이터에 의하면, 
+                                 지난 1년 동안 우크라이나에서는 총 16,207 건의 공습경보가 발령되었으며, 
+                                 아동과 가족들은 지속적인 폭격으로 인하여 최대 8시간까지 지하 대피소에 갇혀 있었던 것으로 알려졌습니다.
+                                 전쟁으로 인해 피해를 본 건 군인들 뿐만이 아닙니다. 
+                                 UN에 따르면, 러시아-우크라이나 전쟁으로 인하여 현재까지 아동을 포함한 18,657 명의 민간인 사상자가 발생하였다고 합니다.
+                            </p>
+                        </div>
+                    </a>
+                </div>          
+                <div>
+                    <a href="#void">
+                        <div class="board_img">
+                            <img src="images/nanum/nanum_8.jpg" alt="우크라이나 전쟁">
+                        </div>
+                        <div class="board_text">
+                            <h1>우크라이나 전쟁,긴급구호 1년간의 기록</h1>
+                            <p>
+                                러시아 군의 우크라이나 공격으로 전쟁이 발생한지 1년이 지났습니다.
+                                 1년이 지났음에도 우크라이나에서는 여전히 러시아 군의 폭격이 계속되고 있으며, 
+                                 전쟁속에서 아동을 포함한 많은 사람들이 고통에 시달리고 있습니다.
+                                 ▲러시아 군의 폭격으로 인해 파괴된 우크라이나 현지의 건물공식 데이터에 의하면, 
+                                 지난 1년 동안 우크라이나에서는 총 16,207 건의 공습경보가 발령되었으며, 
+                                 아동과 가족들은 지속적인 폭격으로 인하여 최대 8시간까지 지하 대피소에 갇혀 있었던 것으로 알려졌습니다.
+                                 전쟁으로 인해 피해를 본 건 군인들 뿐만이 아닙니다. 
+                                 UN에 따르면, 러시아-우크라이나 전쟁으로 인하여 현재까지 아동을 포함한 18,657 명의 민간인 사상자가 발생하였다고 합니다.
+                            </p>
+                        </div>
+                    </a>
+                </div>                          
+            </div>
+        </div>
+        <!-- main  board 2 -->
+        <div class="main_board">
+            <div class="board_banner_imgWrap">
+                <a href="#void">
+                    <img src="images/mainweb_1593480080216.jpg" alt="세이브더칠드런">
+                </a>
+            </div>
+            <div class="board_banner_bottomWrap">
+                <div>
+                    <a href="#void">
+                        <img src="images/mainweb/mainweb_1568857039646.jpg" alt="투명경영">
+                    </a>
+                </div>
+                <div>
+                    <a href="#void">
+                        <img src="images/mainweb/mainweb_1565231273839.jpg" alt="연차보고">
+                    </a>
+                </div>
+            </div>
+        </div>
+        <!-- main campaign -->
+        <div class="main_campaign_wrap">
+            <div class="campaign_list_wrap">
+                <div class="campaign_slide on">
+                    <div class="campaign_img">
+                        <img src="images/mainweb/mainweb_11.jpg" alt="Save One">
+                        <div class="campaign_text">
+                            <h1>Save One</h1>
+                            <p>전 세계의 재난 속 아이들을 구하기 위해
+                                <br/>긴급구호 팔찌를 착용해주세요.</p>
+                            <a href="#void">팔찌 신청하기</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="campaign_slide">
+                    <div class="campaign_img">
+                        <img src="images/mainweb/mainweb_12.jpg" alt="어린이날 선언문">
+                        <div class="campaign_text">
+                            <h1>어린이가 쓰는 어린이날 선언문</h1>
+                            <p>빨간염소 고티와 함께
+                                <br/>아이들의 삶에 티가나는 변화를 만들어주세요.</p>
+                            <a href="#void">자세히 보기</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="campaign_slide">
+                    <div class="campaign_img">
+                        <img src="images/mainweb/mainweb_13.jpg" alt="빨간염소">
+                        <div class="campaign_text">
+                            <h1>아프리카에 빨간염소 보내기</h1>
+                            <p>빨간염소 고티와 함께
+                                <br/>아이들의 삶에 티가나는 변화를 만들어주세요.</p>
+                            <a href="#void">자세히 보기</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="campaign_slide">
+                    <div class="campaign_img">
+                        <img src="images/mainweb/mainweb_14.jpg" alt="차별없이 잘 키우기">
+                        <div class="campaign_text">
+                            <h1>차별없이 잘 키우기</h1>
+                            <p>궁금했던 내 아이의 말과 행동<br/>
+                                말썽번역기를 돌려 확인해보세요</p>
+                            <a href="#void">자세히 보기</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="campaign_slide">
+                    <div class="campaign_img">
+                        <img src="images/mainweb/mainweb_15.jpg" alt="아동학대">
+                        <div class="campaign_text">
+                            <h1>슬픈 기록을 멈추기 위해 아동학대를 기억합니다.</h1>
+                            <p>더 이상 고통 받는 아동이 없도록, 함께해 주세요.</p>
+                            <a href="#void">자세히 보기</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="campaign_slide">
+                    <div class="campaign_img">
+                        <img src="images/mainweb/mainweb_16.jpg" alt="긴급구호아동기금">
+                        <div class="campaign_text">
+                            <h1>긴급구호아동기금</h1>
+                            <p>세이브더칠드런의 인도적지원 활동은<br/>
+                                재난 발생 72시간 내에 즉각적으로 이뤄집니다.</p>
+                            <a href="#void">자세히 보기</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="campaign_slide">
+                    <div class="campaign_img">
+                        <img src="images/mainweb/mainweb_17.jpg" alt="좋아서하는기념일">
+                        <div class="campaign_text">
+                            <h1>좋아서하는기념일</h1>
+                            <p>다양한 기념일을<br/>
+                                기부로 기억하는 후원입니다.</p>
+                            <a href="#void">자세히 보기</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="campaign_slide">
+                    <div class="campaign_img">
+                        <img src="images/mainweb/mainweb_18.jpg" alt="놀이터를 지켜라">
+                        <div class="campaign_text">
+                            <h1>놀이터를 지켜라</h1>
+                            <p>아동의 놀 권리를 함께 지켜주세요.</p>
+                            <a href="#void">자세히 보기</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="campaign_slide">
+                    <div class="campaign_img">
+                        <img src="images/mainweb/mainweb_19.jpg" alt="아동을 살리는 가게">
+                        <div class="campaign_text">
+                            <h1>아동을 살리는 가게</h1>
+                            <p>매장에는 착한가게의 자부심을, 고객들에게는 소비가<br/>
+                                나눔이 되는 경험을 선물하는 WE SAVE와 함께 해주세요.</p>
+                            <a href="#void">자세히 보기</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="campaign_btn_wrap">
+                    <button class="camaign_btn this" type="button">Save One</button>
+                    <button class="camaign_btn" type="button">어린이가 쓰는 어린이날 선언문</button>
+                    <button class="camaign_btn" type="button">아프리카에 빨간염소 보내기</button>
+                    <button class="camaign_btn" type="button">체벌없이 잘 키우기(말썽번역기)</button>
+                    <button class="camaign_btn" type="button">아동학대 아카이브</button>
+                    <button class="camaign_btn" type="button">긴급구호아동기금</button>
+                    <button class="camaign_btn" type="button">좋아서하는기념일</button>                
+                    <button class="camaign_btn" type="button">놀이터를 지켜라</button>                
+                    <button class="camaign_btn" type="button">아동을 살리는 가게</button>                
+                </div>
+            </div>           
+        </div>
+        <!-- main media board -->
+        <div class="main_board_mediaWrap">
+            <div class="innerBox">
+                
+            </div>
+        </div>
+        <!-- main sponsorship -->
+        <div class="main_sponsorship_wrap"></div>
+        <!-- main news -->
+        <div class="main_news_wrap"></div>
     </div>
     <!-- footer -->
     <div>

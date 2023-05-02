@@ -157,5 +157,6 @@ header,footer,nav,section,aside{
 /* inner */
 .innerBox{
     margin: 0 auto;
-    width: 1050px;
+    max-width: 1050px;
+    position: relative;
 }
