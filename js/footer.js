@@ -12,8 +12,7 @@
     });
     gBtn.addEventListener("click",()=>{
         global.classList.toggle('on');
-    });
-    
+    });    
 // }
 
 

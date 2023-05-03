@@ -10,7 +10,7 @@
     <title>세이브더칠드런</title>    
     <!-- css -->
     <link rel="stylesheet" href="css/common.css?after">
-    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/main.css?after">
     <!-- jquery 불러오기 -->
     <script src="//code.jquery.com/jquery-3.6.1.min.js"></script>
     <!-- slick 불러오기 -->
@@ -441,17 +441,112 @@
         <!-- main media board -->
         <div class="main_board_mediaWrap">
             <div class="innerBox">
-                
+                <div class="media_list">
+                    <div class="media_slide act">
+                        <iframe src="https://www.youtube.com/embed/NoM4wGWln10" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                    </div>
+                    <div class="media_slide">
+                        <!-- <iframe src="https://www.youtube-nocookie.com/embed/4FPma65_mgY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> -->
+                    </div>
+                    <div class="media_slide">
+                        <!-- <iframe src="https://www.youtube-nocookie.com/embed/AyaNS05kd0M" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> -->
+                    </div>
+                </div>
             </div>
         </div>
         <!-- main sponsorship -->
-        <div class="main_sponsorship_wrap"></div>
+        <div class="main_sponsorship_wrap">
+            <div class="sponsorship_grid">
+                <div class="big">
+                    <div class="big_wrap">
+                        <div class="big_text_box">
+                            <h1>정기후원</h1>
+                            <p>전 세계 모든 아동, 마지막 한 아동까지 
+                                함께합니다.</p>
+                            <a href="#void">자세히 보기</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="small s-1">
+                    <div class="small_wrap">
+                        <div class="small_text_box">
+                            <h1>해외결연후원</h1>
+                            <p>결연아동의 성장단계에 맞춰 
+                                프로그램을 지원합니다.</p>
+                            <a href="#void">자세히 보기</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="small s-2">
+                    <div class="small_wrap"> 
+                        <div class="small_text_box">
+                            <h1>선물가게</h1>
+                            <p>도움이 절실한 아동들에게
+                                꼭 필요한 물품을 선물합니다.</p>
+                            <a href="#void">자세히 보기</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="small s-3">
+                    <div class="small_wrap"> 
+                        <div class="small_text_box">
+                            <h1>기업·단체 후원</h1>
+                            <p>기업에 맞춘 사회적 책임 실천과
+                                사회 공헌 방안을 제공합니다.</p>
+                            <a href="#void">자세히 보기</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="small s-4">
+                    <div class="small_wrap">
+                        <div class="small_text_box">
+                            <h1>고액·유산기부</h1>
+                            <p>노블리스 오블리주로서
+                                아동의 삶에 더 큰 변화를 만듭니다</p>
+                            <a href="#void">자세히 보기</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
         <!-- main news -->
-        <div class="main_news_wrap"></div>
+        <div class="main_news_wrap">
+            <div class="news_title">
+                <h1>세이브더칠드런<br>소식이<br>궁금하세요?</h1>
+                <button type="button" class="news_morebtn"></button>
+            </div>
+            <div class="news_board_wrap">                  
+                <div class="news_board">
+                    <span>보도자료</span>
+                    <p>세이브더칠드런-HD현대 1%나눔재단,  보호대상아동 양육시설 환경 개선 나서</p>
+                    <a class="link" href="#void"></a>
+                </div>
+                <div class="news_board">
+                    <span>보도자료</span>
+                    <p>세이브더칠드런, 3일 아동기본법 발의 공동 기자회견 개최</p>
+                        <a class="link" href="#void"></a>
+                </div>                  
+                <div class="news_board">
+                    <span>공지사항</span>
+                    <p>은행/증권사 점검으로 인한 홈페이지 결제 서비스 중단 안내(5월)</p>
+                        <a class="link" href="#void"></a>
+                </div>                  
+                <div class="news_banner">  <!-- 교육 신청 -->
+                    <a href="#void">
+                        <img src="images/newsbanner.jpg" alt="newsbanner">
+                    </a>
+                </div>
+            </div>
+        </div>
     </div>
     <!-- footer -->
     <div>
         <jsp:include page="footer.jsp" />
-    </div>     
+    </div>    
+    <script>
+        document.cookie = "safeCookie1=foo; SameSite=Lax"; 
+        document.cookie = "safeCookie2=foo";  
+        document.cookie = "crossCookie=bar; SameSite=None; Secure";
+    </script> 
 </body>  
 </html>

@@ -73,26 +73,26 @@
                         <ul>
                             <li class="tit">
                                 <span>지부</span>
-                                <a href="http://scjbchild.sc.or.kr" target="_blank" title="중부지역본부 새창으로 열림">중부지역본부</a>
-                                <a href="http://ynchild.sc.or.kr" target="_blank" title="동부지역본부 새창으로 열림">동부지역본부</a>
-                                <a href="http://hnchild.sc.or.kr" target="_blank" title="서부지역본부 새창으로 열림">서부지역본부</a>
-                                <a href="http://nbchild.sc.or.kr" target="_blank" title="남부지역본부 새창으로 열림">남부지역본부</a>
+                                <a href="#void" target="_blank" title="중부지역본부 새창으로 열림">중부지역본부</a>
+                                <a href="#void" target="_blank" title="동부지역본부 새창으로 열림">동부지역본부</a>
+                                <a href="#void" target="_blank" title="서부지역본부 새창으로 열림">서부지역본부</a>
+                                <a href="#void" target="_blank" title="남부지역본부 새창으로 열림">남부지역본부</a>
                             </li>
                             <li class="tit">
                                 <span>아동보호전문기관</span>
-                                <a href="http://mapo.sc.or.kr" target="_blank" title="서울마포아동보호전문기관 새창으로 열림">서울마포아동보호전문기관</a>
-                                <a href="http://icchild.sc.or.kr" target="_blank" title="인천광역시아동보호전문기관 새창으로 열림">인천광역시아동보호전문기관</a>
-                                <a href="http://ulsan.sc.or.kr" target="_blank" title="울산광역시아동보호전문기관 새창으로 열림">울산광역시아동보호전문기관</a>
-                                <a href="http://bucheon.sc.or.kr" target="_blank" title="부천시아동보호전문기관 새창으로 열림">부천시아동보호전문기관</a>
-                                <a href="http://ansan.sc.or.kr" target="_blank" title="안산시아동보호전문기관 새창으로 열림">안산시아동보호전문기관</a>
-                                <a href="http://djsb.sc.or.kr/" target="_blank" title="대전서부아동보호전문기관 새창으로 열림">대전서부아동보호전문기관</a>
+                                <a href="#void" target="_blank" title="서울마포아동보호전문기관 새창으로 열림">서울마포아동보호전문기관</a>
+                                <a href="#void" target="_blank" title="인천광역시아동보호전문기관 새창으로 열림">인천광역시아동보호전문기관</a>
+                                <a href="#void" target="_blank" title="울산광역시아동보호전문기관 새창으로 열림">울산광역시아동보호전문기관</a>
+                                <a href="#void" target="_blank" title="부천시아동보호전문기관 새창으로 열림">부천시아동보호전문기관</a>
+                                <a href="#void" target="_blank" title="안산시아동보호전문기관 새창으로 열림">안산시아동보호전문기관</a>
+                                <a href="#void" target="_blank" title="대전서부아동보호전문기관 새창으로 열림">대전서부아동보호전문기관</a>
                             </li>
                             <li class="tit">
                                 <span>가정위탁지원센터</span>
-                                <a href="http://busan.sc.or.kr" target="_blank" title="부산광역시가정위탁지원센터 새창으로 열림">부산광역시가정위탁지원센터</a>
-                                <a href="http://dgfc.sc.or.kr" target="_blank" title="대구광역시가정위탁지원센터 새창으로 열림">대구광역시가정위탁지원센터</a>
-                                <a href="http://jbfc.sc.or.kr" target="_blank" title="전북가정위탁지원센터 새창으로 열림">전북가정위탁지원센터</a>
-                                <a href="http://cbfc.sc.or.kr" target="_blank" title="충북가정위탁지원센터 새창으로 열림">충북가정위탁지원센터</a>
+                                <a href="#void" target="_blank" title="부산광역시가정위탁지원센터 새창으로 열림">부산광역시가정위탁지원센터</a>
+                                <a href="#void" target="_blank" title="대구광역시가정위탁지원센터 새창으로 열림">대구광역시가정위탁지원센터</a>
+                                <a href="#void" target="_blank" title="전북가정위탁지원센터 새창으로 열림">전북가정위탁지원센터</a>
+                                <a href="#void" target="_blank" title="충북가정위탁지원센터 새창으로 열림">충북가정위탁지원센터</a>
                             </li>
                         </ul>
                     </div>
