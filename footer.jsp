@@ -10,7 +10,7 @@
     <title>footerJSP</title>
     <!-- css -->
     <link rel="stylesheet" href="css/common.css?after">
-    <link rel="stylesheet" href="css/footer.css"> 
+    <link rel="stylesheet" href="css/footer.css?after"> 
 </head>
 <body>
     <footer class="stc_footer">

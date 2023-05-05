@@ -10,55 +10,21 @@
     <title>세이브더칠드런</title>    
     <!-- css -->
     <link rel="stylesheet" href="css/common.css?after">
-    <link rel="stylesheet" href="css/main.css?after">
+    <link rel="stylesheet" href="css/main.css">
     <!-- jquery 불러오기 -->
     <script src="//code.jquery.com/jquery-3.6.1.min.js"></script>
     <!-- slick 불러오기 -->
     <script src="js/slick.min.js"></script>
     <link rel="stylesheet" href="css/slick/slick.css">
     <link rel="stylesheet" href="css/slick/slick-theme.css?after">
-    <script>
-        $( document ).ready(function() {
-            $('.banner_wrap').slick({
-                slidesToShow: 1,
-                slidesToScroll: 1,
-                autoplay: true,
-                autoplaySpeed: 5000,
-                infinite : true,
-                dots:true,
-                fade:true
-            });           
-            $('.contents_wrap').slick({
-                slidesToShow: 5,
-                slidesToScroll: 5,
-                responsive: [ // 반응형 웹 구현 옵션
-                    { 
-						breakpoint: 1680, //화면 사이즈 
-						settings: {	
-							slidesToShow:4, 
-                            slidesToScroll: 1
-						} 
-					},
-                    {  
-						breakpoint: 1380, 
-						settings: {
-							slidesToShow:3,
-                            slidesToScroll: 1
-						} 
-					},
-					{  
-						breakpoint: 1000, 
-						settings: {
-							slidesToShow:2,
-                            slidesToScroll: 1
-						} 
-					}
-				]
-            })
-        });
-    </script>
 </head>
 <body>
+    <!-- 팝업 창 -->
+    <!-- <div class="popup-1">
+        <h1>개인 포트폴리오용으로 제작한 사이트입니다.</h1>
+        <p>해상도 1920px*1080px 최적화 되어 있습니다.</p>
+    </div> -->
+
     <!-- header -->
     <div>
         <jsp:include page="header.jsp" />
@@ -114,23 +80,23 @@
                 </div>                  
             </div>       
             <div class="main_spon">
-                <a href="#void" class="suport_btn choice" title="정기후원">
+                <a href="#void" class="support_btn choice" title="정기후원">
                     <div class="choice_area">정기후원</div>
                 </a>
-                <a href="#void" class="suport_btn" title="일시후원">
+                <a href="#void" class="support_btn" title="일시후원">
                     <div class="choice_area">일시후원</div>
                 </a>
                 <div class="select_sum">
-                    <select class="sel_price" id="sel_01">
+                    <select class="sel_price" id="sel_01"  name="prices">
                         <option value="write">금액 직접입력</option>
-                        <option value="100000">100,000</option>
-                        <option value="50000">50,000</option>
-                        <option value="30000">30,000</option>
-                        <option value="20000">20,000</option>
+                        <option value="100,000">100,000</option>
+                        <option value="50,000">50,000</option>
+                        <option value="30,000">30,000</option>
+                        <option value="20,000">20,000</option>
                     </select>
                 </div>
                 <div class="price_input">
-                    <input type="text" placeholder="0">
+                    <input type="text" value="0" name="selectprice" class="prInput">
                     <span>원</span>
                 </div>
                 <button type="button" class="mainsupport_btn">후원하기</button>
@@ -548,5 +514,6 @@
         document.cookie = "safeCookie2=foo";  
         document.cookie = "crossCookie=bar; SameSite=None; Secure";
     </script> 
+    <script src="js/main.js"></script>
 </body>  
 </html>

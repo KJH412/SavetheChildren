@@ -11,7 +11,7 @@ window.onload=function(){
         loginBtn = document.querySelector(".login_btn"),
         loginTxt = document.querySelector(".loginTxt"),
         searchIcon = document.querySelector(".search_btn"),
-        hamBtn = document.querySelector(".ham_btn"),
+        // hamBtn = document.querySelector(".ham_btn"),
         ham = document.querySelector(".ham");
   
   // 네비게이션 바

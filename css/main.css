@@ -1,6 +1,6 @@
 .container{
-    max-width: 1920px;
-    margin: 0 auto;
+    /* max-width: 1920px;
+    margin: 0 auto; */
 }
 /* ==== 메인 배너 ==== */
 .main_banner_wrap{
@@ -110,11 +110,11 @@
     box-sizing: border-box;
     justify-content: center;
 }
-.suport_btn.choice{
+.support_btn.choice{
     background: #61564b;
     border: 2px solid #4f453b;
 }
-.suport_btn{
+.support_btn{
     display: inline-block;
     width: 270px;
     height: 46px;
@@ -125,7 +125,7 @@
     text-align: center;
     box-sizing: border-box;
 }
-.suport_btn.choice .choice_area{
+.support_btn.choice .choice_area{
     color: #fff;
     background:url(../images/btn/checkbox_checked_type2.png) no-repeat 70px 13px;
 }
@@ -266,11 +266,16 @@
     position: relative;
     margin: 0 0 250px;
 }
+.board_banner_imgWrap{
+    width: 100%;
+    overflow: hidden;
+}
 .board_banner_imgWrap img{
     position: relative;
     top: 0;
     left: 50%;
     transform: translateX(-50%);
+    width: 100%;
 }
 .board_banner_bottomWrap{
     display: flex;
@@ -293,6 +298,7 @@
     top: 0;
     left: 0;
     opacity: 0;
+    transition: all .8s;
 }
 .campaign_slide.on{
     opacity: 1;
@@ -302,7 +308,15 @@
     top: 0;
     left: 50%;
     transform: translateX(-50%);
+    overflow: hidden;
+    width: 100%;
+    height: 70vh;
 }
+.campaign_img img{
+    width: 100%;
+    height: 100%;
+}
+
 .campaign_text{
     position: absolute;
     top: 50%;
@@ -328,6 +342,10 @@
     border: 1px solid #fff;
     font-size: 15px;
 }
+.campaign_text a:hover{
+    color: #333;
+    background-color: #fff;
+}
 /* 캠패인 버튼 */
 .campaign_btn_wrap{
     position: absolute;
@@ -346,6 +364,7 @@
     padding-left: 20px;
     margin: 5px 0;
     position: relative;
+    transition: all .5s;
 }
 .campaign_btn_wrap button.this{
     width: 300px;
@@ -428,20 +447,8 @@
 .s-4>.small_wrap{
     background: url("../images/grid/grid_5.jpg") no-repeat center;
 }
-.s-1,
-.s-2,
-.s-3,
-.s-4{
-    /* height: 310px; */
-}
-.s-1,.s-3{
-    /* width: 29.94791%; */
-}
 .s-3{
     grid-column: 2;
-}
-.s-2,.s-4{
-    /* width: 28.90626%; */
 }
 .s-4{
     grid-column: 3;
@@ -490,6 +497,12 @@
     font-weight: bold;
     background: rgba(0,0,0,.1);
     border: 1px solid rgba(255,255,255,.5);
+    transition: all .3s;
+}
+.big_text_box a:hover,
+.small_text_box a:hover{
+    background-color: #fff;
+    color: #333;
 }
 .big_text_box a{
     margin: 0 auto;
@@ -504,6 +517,7 @@
 }
 .news_title{
     position: relative;
+    padding-left: 50px;
 }
 .news_title h1{
     font-size: 40px;
@@ -523,7 +537,7 @@
     position: absolute;
     top: 50%;
     transform: translate(-50%,-50%);
-    left: 50%;
+    left: 55%;
 }
 .news_board{
     width: 250px;
@@ -551,4 +565,7 @@
     background-size: 100%;
     position: absolute;
     bottom: 30px;
+}
+.news_banner{
+    padding-left: 30px;
 }

@@ -10,7 +10,7 @@
     <title>headerJSP</title>
     <!-- css -->
     <link rel="stylesheet" href="css/common.css">
-    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/header.css?after">
 </head>
 <body>
     <header class="stc_header" data-sub="off">
@@ -23,10 +23,10 @@
                 </h1>
             </div>
             <div class="nav_sub_bg">
-                <ul class="campaign_wrap">
+                <ul class="nav_campaign_wrap">
                     <li>
                         <a href="#">
-                            <div class="campaign_img">
+                            <div class="nav_campaign_img">
                                 <img src="images/maingnb/maingnb_1.jpg" alt="캠패인">
                             </div>
                             <div class="campaign_title">
@@ -35,7 +35,7 @@
                         </a>
                     </li>
                     <li>
-                        <div class="campaign_img">
+                        <div class="nav_campaign_img">
                             <img src="images/maingnb/maingnb_2.jpg" alt="캠패인">
                         </div>
                         <div class="campaign_title">
@@ -43,7 +43,7 @@
                         </div>
                     </li>
                     <li>
-                        <div class="campaign_img">
+                        <div class="nav_campaign_img">
                             <img src="images/maingnb/maingnb_3.jpg" alt="캠패인">
                         </div>
                         <div class="campaign_title">
@@ -51,7 +51,7 @@
                         </div>
                     </li>
                     <li>
-                        <div class="campaign_img">
+                        <div class="nav_campaign_img">
                             <img src="images/maingnb/maingnb_4.jpg" alt="캠패인">
                         </div>
                         <div class="campaign_title">
@@ -59,7 +59,7 @@
                         </div>
                     </li>
                     <li>
-                        <div class="campaign_img">
+                        <div class="nav_campaign_img">
                             <img src="images/maingnb/maingnb_5.jpg" alt="캠패인">
                         </div>
                         <div class="campaign_title">
@@ -67,7 +67,7 @@
                         </div>
                     </li>
                     <li>
-                        <div class="campaign_img">
+                        <div class="nav_campaign_img">
                             <img src="images/maingnb/maingnb_6.png" alt="캠패인">
                         </div>
                         <div class="campaign_title">
@@ -75,7 +75,7 @@
                         </div>
                     </li>
                     <li>
-                        <div class="campaign_img">
+                        <div class="nav_campaign_img">
                             <img src="images/maingnb/maingnb_7.jpg" alt="캠패인">
                         </div>
                         <div class="campaign_title">
@@ -83,7 +83,7 @@
                         </div>
                     </li>
                     <li>
-                        <div class="campaign_img">
+                        <div class="nav_campaign_img">
                             <img src="images/maingnb/maingnb_8.png" alt="캠패인">
                         </div>
                         <div class="campaign_title">
