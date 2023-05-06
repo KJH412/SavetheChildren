@@ -19,7 +19,7 @@
 
 ## :mag: 기능 설명
 ### 1.메인페이지
-
+![nav1](https://user-images.githubusercontent.com/108113992/236616909-75b217a4-e79e-444b-b028-0b5ae2e43897.png)
 ![nav](https://user-images.githubusercontent.com/108113992/236616415-7a7256af-81bc-454e-86a7-e623dc563e1c.png)
 - Header의 네비게이션 메뉴는 hover가 아닌 mouse이벤트로 동작시켰습니다.
 - Header와 Footer의 파일을 분리해서 jsp를 활용해 페이지를 include 하였습니다.
@@ -29,8 +29,8 @@
 
 ![grid](https://user-images.githubusercontent.com/108113992/236616545-1a4f4c59-9d9d-4cda-be5b-8ed3142f3b4e.png)
 - 그리드 레이아웃을 기존 사이트에선 float을 사용했지만 새로 만들어 보면서 display grid를 사용해 레이아웃을 배치했습니다.
-
-
+<br/>
+<br/>
 ## 아쉬웠던 점
 - 처음에는 javascript로 header와 footer를 분리하여 재사용하려 했지만 script 파일만 로드되지 않는 문제로 어려움을 겪었고 
 결국 jsp를 활용해 include 하는 방식으로 사용했습니다.
