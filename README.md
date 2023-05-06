@@ -19,9 +19,12 @@
 
 ## :mag: 기능 설명
 ### 1.메인페이지
-![stc_img](https://user-images.githubusercontent.com/108113992/236614992-de8142f3-b26b-4b9f-8df2-0574931273b6.jpeg)
+![nav](https://user-images.githubusercontent.com/108113992/236616415-7a7256af-81bc-454e-86a7-e623dc563e1c.png)
 - Header의 네비게이션 메뉴는 hover가 아닌 mouse이벤트로 동작시켰습니다.
 - Header와 Footer의 파일을 분리해서 jsp를 활용해 페이지를 include 하였습니다.
+![option](https://user-images.githubusercontent.com/108113992/236616446-0263e7d1-6a59-471a-aa3a-5be0935faf43.png)
+- 원하는 금액을 선택하면 입력 창에 선택된 금액의 숫자가 나타나도록 만들었습니다.
+![grid](https://user-images.githubusercontent.com/108113992/236616545-1a4f4c59-9d9d-4cda-be5b-8ed3142f3b4e.png)
 - 그리드 레이아웃을 기존 사이트에선 float을 사용했지만 새로 만들어 보면서 display grid를 사용해 레이아웃을 배치했습니다.
 
 
